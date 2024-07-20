@@ -1,0 +1,56 @@
+{
+  "name": "alfabit-ds-meu",
+  "version": "0.1.1",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.6.0",
+    "classnames": "^2.3.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "^14.2.5",
+    "next": "^14.2.5",
+    "postcss": "8.4.23",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "3.3.2",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@storybook/addon-essentials": "^8.2.4",
+    "@storybook/addon-interactions": "^8.2.4",
+    "@storybook/addon-links": "^8.2.4",
+    "@storybook/blocks": "^8.2.4",
+    "@storybook/manager-api": "^8.2.4",
+    "@storybook/nextjs": "^8.2.4",
+    "@storybook/react": "^8.2.4",
+    "@storybook/test": "^8.2.4",
+    "@storybook/theming": "^8.2.4",
+    "chromatic": "^11.5.5",
+    "eslint-plugin-storybook": "^0.6.13",
+    "storybook": "^8.2.4"
+  },
+  "description": "![3172 - React: Evolua seu Design System com Tailwind](thumb.png)",
+  "main": "components/index.ts",
+  "author": "Fernando Mattos",
+  "license": "ISC",
+  "files": [
+    "styles/globals.css",
+    "tailwind.config.js",
+    "components/*",
+    "fonts/*"
+  ]
+}
